@@ -14,7 +14,7 @@ export class AutenticadoGuard implements CanLoad {
     if(!token){
     this.naoAutenticado();
    }
-  return new Promise((res)=>{
+  return new Promise( (res)=>{
     const usuarioCriado = this.spotifyService.inicializarUsuario()
     if(usuarioCriado){
       res(true);
