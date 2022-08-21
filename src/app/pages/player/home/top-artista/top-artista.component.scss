@@ -1,0 +1,37 @@
+@import "../../../../../assets/styles/variaveis.scss";
+
+.card{
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    
+    .artista{
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        padding: 10px 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .image{
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: .4;
+        z-index: 0;
+    }
+    span{
+        color: $preto-transparent-70;
+        text-shadow: 2px 2px 10px $branco;
+    }
+}

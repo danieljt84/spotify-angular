@@ -6,6 +6,9 @@ import { playerRoutes } from './player.routes';
 import { PainelEsquerdoComponent } from './painel-esquerdo/painel-esquerdo.component';
 import { BotaoMenuComponent } from './painel-esquerdo/botao-menu/botao-menu.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RodapeUsuarioComponent } from './painel-esquerdo/rodape-usuario/rodape-usuario.component';
+import { HomeComponent } from './home/home.component';
+import { TopArtistaComponent } from './home/top-artista/top-artista.component';
 
 
 
@@ -13,7 +16,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   declarations: [
     PlayerComponent,
     PainelEsquerdoComponent,
-    BotaoMenuComponent
+    BotaoMenuComponent,
+    RodapeUsuarioComponent,
+    HomeComponent,
+    TopArtistaComponent
   ],
   imports: [
     CommonModule,

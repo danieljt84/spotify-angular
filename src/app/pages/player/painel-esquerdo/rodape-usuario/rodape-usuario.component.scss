@@ -1,0 +1,26 @@
+@import "../../../../../assets/styles/variaveis.scss";
+
+.flex {
+
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: $cor-primaria;
+    border-top: 1px solid $preto-transparent-20;
+  img {
+    flex-grow: 0;
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+  }
+  span{
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 700 ;
+  }
+  .icone{
+    flex-grow: 0;
+    cursor: pointer;
+  }
+}

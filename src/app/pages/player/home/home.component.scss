@@ -1,0 +1,15 @@
+@import "../../../../assets/styles/variaveis.scss";
+
+:host {
+  display: flex;
+  justify-content: space-between;
+  .minhas-musicas {
+    padding: 0px 50px;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
+  .painel-direito{
+    max-height: 100vh;
+  }
+}
